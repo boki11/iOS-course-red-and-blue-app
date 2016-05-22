@@ -12,6 +12,8 @@
 		ECA24DA21CF07A00005B0F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA24DA01CF07A00005B0F2E /* Main.storyboard */; };
 		ECA24DA41CF07A00005B0F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA24DA31CF07A00005B0F2E /* Assets.xcassets */; };
 		ECA24DA71CF07A00005B0F2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA24DA51CF07A00005B0F2E /* LaunchScreen.storyboard */; };
+		ECA24DB01CF07B04005B0F2E /* blue bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA24DAE1CF07B04005B0F2E /* blue bomb.png */; };
+		ECA24DB11CF07B04005B0F2E /* red bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA24DAF1CF07B04005B0F2E /* red bomb.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ECA24DA31CF07A00005B0F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECA24DA61CF07A00005B0F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECA24DA81CF07A00005B0F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA24DAE1CF07B04005B0F2E /* blue bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue bomb.png"; sourceTree = "<group>"; };
+		ECA24DAF1CF07B04005B0F2E /* red bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red bomb.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				ECA24D9E1CF07A00005B0F2E /* ViewController.swift */,
 				ECA24DA01CF07A00005B0F2E /* Main.storyboard */,
 				ECA24DA31CF07A00005B0F2E /* Assets.xcassets */,
+				ECA24DAE1CF07B04005B0F2E /* blue bomb.png */,
+				ECA24DAF1CF07B04005B0F2E /* red bomb.png */,
 				ECA24DA51CF07A00005B0F2E /* LaunchScreen.storyboard */,
 				ECA24DA81CF07A00005B0F2E /* Info.plist */,
 			);
@@ -122,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA24DB01CF07B04005B0F2E /* blue bomb.png in Resources */,
+				ECA24DB11CF07B04005B0F2E /* red bomb.png in Resources */,
 				ECA24DA71CF07A00005B0F2E /* LaunchScreen.storyboard in Resources */,
 				ECA24DA41CF07A00005B0F2E /* Assets.xcassets in Resources */,
 				ECA24DA21CF07A00005B0F2E /* Main.storyboard in Resources */,

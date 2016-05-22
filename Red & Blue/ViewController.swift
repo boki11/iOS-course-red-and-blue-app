@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var redBomb: UIImageView!
+    
+    @IBOutlet var blueBomb: UIImageView!
+    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -18,6 +23,19 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func hideRedBombButton(sender: AnyObject) {
+        
+        redBomb.hidden = true
+        
+    }
+    
+    
+    @IBAction func hideBlueBombButton(sender: AnyObject) {
+        
+        blueBomb.hidden = true
+        
     }
 
 
